@@ -3,14 +3,11 @@
 
 /*--------------------------------------  Header */
 
-p {
-    color: red;
+.mynav {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
 }
 
-div {
-
-    min-height: 200px;
-}
 
 span {
     font-size: 20px;
