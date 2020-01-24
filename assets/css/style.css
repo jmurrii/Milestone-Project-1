@@ -7,17 +7,27 @@
     font-family: 'Roboto Mono', monospace;
     font-size: 1.5rem;
 }
+/* -------------    Hover Underline Navbar --------*/
 
+.underline {
+    transition-property: underline;
+    transition: all 2s ease-in-out;
+    
+   
+}
 
-span {
-    font-size: 20px;
+ .underline:hover {
+    text-decoration: underline;
 }
 
 
-.font {
-    font-family: 'Roboto Mono', monospace;
+
+
+
+/* -----------------------   Footer */
+/*
+.footer-div {
+    min-height: 250px;
 }
 
-.font2 {
-    font-family: 'Bebas Neue', cursive;
-}
+*/
