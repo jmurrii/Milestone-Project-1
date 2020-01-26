@@ -29,3 +29,10 @@
 .footer-div {
     min-height: 250px;
 }
+
+.icons {
+    font-size: 30px;
+    background-color: white;
+    padding: 5px;
+}
+
