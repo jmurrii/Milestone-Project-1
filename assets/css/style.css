@@ -11,12 +11,21 @@
 
 .underline {
     transition-property: underline;
-    transition: all 2s ease-in-out;
 }
 
- .underline:hover {
+.underline:hover {
     text-decoration: underline;
+} 
+/*
+@media screen and (max-width: 767px){
+    #bandlogo {
+        background-color: red;
+        display: flex;
+        justify-content: flex-end;
+    }
 }
+
+*/
 
 
 
@@ -49,6 +58,6 @@
 
 .icons {
     font-size: 60px;
-    padding: 5px;
+    padding: 2%;
 }
 
