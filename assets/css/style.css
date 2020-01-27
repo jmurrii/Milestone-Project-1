@@ -12,8 +12,6 @@
 .underline {
     transition-property: underline;
     transition: all 2s ease-in-out;
-    
-   
 }
 
  .underline:hover {
@@ -22,6 +20,25 @@
 
 
 
+/* -----------------------   index.html section */
+
+
+/*
+
+.quote {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#jumbo {
+    background-image: url();
+}
+
+
+*/
+
+.call-to-action {
+    min-height: 300px;
+}
 
 
 /* -----------------------   Footer */
@@ -31,8 +48,7 @@
 }
 
 .icons {
-    font-size: 30px;
-    background-color: white;
+    font-size: 60px;
     padding: 5px;
 }
 
