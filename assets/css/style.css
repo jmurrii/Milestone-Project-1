@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap:100,200,300,400,500,600,700|Roboto+Mono:300&display=swap:100,200,300,400,500,600,700');
 
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
 /*--------------------------------------  Header */
 
 .mynav {
@@ -13,19 +20,15 @@
     transition-property: underline;
 }
 
-.underline:hover {
+.underline:hover{
     text-decoration: underline;
 } 
-/*
-@media screen and (max-width: 767px){
-    #bandlogo {
-        background-color: red;
-        display: flex;
-        justify-content: flex-end;
-    }
-}
 
-*/
+
+.navbar ul li a {
+color:#fff;}
+.navbar ul li a:hover {
+color: red;}
 
 
 
@@ -56,8 +59,21 @@
     min-height: 250px;
 }
 
+/*-----------------------  Icons */
+
 .icons {
     font-size: 60px;
     padding: 2%;
+}
+
+
+
+
+.insta:hover {
+   color:red !important;
+   transition: all 0.3s ease-in-out;
+}
+.insta-o:hover {
+   color:red !important;
 }
 
