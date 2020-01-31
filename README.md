@@ -1,4 +1,4 @@
-Milestone Project 1 - The Bittersweet Music Website
+# Milestone Project 1 - The Bittersweet Music Website
 
 
 The aim of this project was to build a music website for ‘The Bittersweet’, an electro-pop act that I am part of.
@@ -13,52 +13,59 @@ The hope was to create an online space that reflected the band’s music and art
 
 The provisional launch date for the website is May1st 2020 so a few more features and content will be added before that date.
 
-Demo
+## Demo
 
 A live demo can be found here
 
 
-UX
+# UX
 
 The website is for fans of the band or new users to find out more about the band.
 
 
 
-
 As a user I want to see all available dates to see the band perform live.
 
+- all relevant information can be found at tour.html including dates and venues
 
-As a user I want to watch the band’s latest video release
 
+As a user I want to watch the band’s latest video release 
+
+- all videos will be posted at video.html
 
 
 As a user I want to connect with the band’s social media sites
 
+- all major social media sites that the band will be active on have a link at the bottom of each page.
+
 
 As a user I want to keep up to date with the band’s news and updates.
 
-
-
-As a user I want to watch the band’s latest video release
+- there is an option to sign up for a newsletter that will keep fans up to date.
 
 
 
-Wireframes
+### Wireframes
+
+../wireframes/wireframes1.jpeg
+../wireframes/wireframes2.jpeg
+../wireframes/wireframes3.jpeg
+../wireframes/wireframes4.jpeg
 
 
-The Strategy Plane:
+### The Strategy Plane:
 Business Goals 2020 - brand awareness, showcase band’s music.
 User Needs -  Access to content and information in a well presented manner I.e. don’t overload with content.
 
-The Scope Plane:
+### The Scope Plane:
 The Minimum Viable Product is an online space that lays out the band’s vision and points the user to relevant information.
 
-The Structure Plane:
+### The Structure Plane:
 The information is structured in a clean and clear way.
 The homepage being saved for just a photo and a 'main feature' which will be the ‘call to action’ for the band, whatever that may be at any given time.
 The rest of the information will be divided between the About, Video, Tour and Store pages, which are all self-explanatory and easy to follow.
 
-The Surface Plane:
+### The Surface Plane:
 The site will have a minimalist feel.  Use of greys and retro simple fonts is used to reflect the art-style of Shoreditch, where the band is currently based.
 Simple old-school drawings of swallows and subtle nature photography reflects the Irish roots of the band.
 The sparse use of red as a hover effect over links and icons was used to give a feeling of energy/excitement which is a reflection of the bands electronic musical influences.
@@ -70,28 +77,31 @@ All these small design choices hopefully combine to achieve an artistic experien
 
 
 
-Features
+## Features
 
 
-Existing Features
+## Existing Features
 
-Spotify player
+### Spotify player
 * ...Embedded Spotify Player allows user listen to our music on our homepage
 
-Cross link
-The small font awesome cross towards the bottom of the 'About' page links to a two-minute meditation website which was added to make the user experience more personalised
+### Music Player
+* ... This gives the user the option to listen to our music if they don't have a Spotify account
+
+### Cross link
+* ... The small font awesome cross towards the bottom of the 'About' page links to a two-minute meditation website which was added to make the user experience more personalised
 
 
-Features Left to Implement
+## Features Left to Implement
 * A functioning Newsletter/Email Database.  
 * A functioning store to sell merchandise, vinyl’s etc.
 
-When I learn the required technologies I will implement these features.
+When I learn how to use the required technologies I will implement these features.
 
 
 
 
-Technologies Used
+## Technologies Used
 
     1. HTML5
     2. CSS3
@@ -99,22 +109,25 @@ Technologies Used
     4. HTML Formatter https://htmlformatter.com/    (A simple way to beautify HTML)
     5. CSS Formatter https://www.cleancss.com/css-beautify/  (A convenient way to beautify CSS)
     6. Can I Use?  https://caniuse.com/    (This site let gave info on whether vendor prefixes were required for the features I had implemented)
+    7. Am I Responsive.com 
 
 
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+## Testing
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-1. Contact form:
-    * Go to the "Contact Us" page
-    * Try to submit the empty form and verify that an error message about the required fields appears
-    * Try to submit the form with an invalid email address and verify that a relevant error message appears
-    * Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+* I have used the user stories to put myself in the shoes of a visitor to the site and found that all the relevant information is easily accessible.  
 
-Deployment
+* I have made sure all links are up to date and pointing to the correct destinations.
+All links will open in a new tab using target="_blank".
+
+* Invalid email addresses leads to appropriate error message
+
+
+## Problems
+
+I still have not found a way to make the Spotify player stop playing automatically when the site audio player starts.  
+
+
+## Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
 * Different values for environment variables (Heroku Config Vars)?
@@ -122,15 +135,18 @@ In particular, you should provide all details of the differences between the dep
 * Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
-Credits
+## Credits
+
+### Content
+* All text content was provided by me.
 
 
-Media
+### Media
 * The photos used in this site were obtained from  https://www.pexels.com apart from the picture of the band which was taken by Dan Butler Photography https://www.danbutlerphotography.ie/index
   
 	Videos were made by the Bittersweet with Nathan Barlow.
 
-Acknowledgements
+### Acknowledgements
 * Help in finding purpose for this project from Seth Godin’s book ‘This Is Marketing’.
 * Bon Iver’s website and music was a big inspiration - https://boniver.org/
 * Haley Shafer’s website - for artistic style choices and minimalist design https://www.haleyschafer.com/
