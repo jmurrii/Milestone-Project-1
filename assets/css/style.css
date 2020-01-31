@@ -1,14 +1,12 @@
 /* -----------------------------------  Global Settings */
 
-@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap:100,200,300,400,500,600,700|Roboto+Mono:300&display=swap:100,200,300,400,500,600,700|');
-
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap:100,200,300,400,500,600,700|Roboto+Mono:300&display=swap:100,200,300,400,500,600,700|');
 
 
 body {
     margin: 0;
     padding: 0;
-    
+    font-family: 'Open Sans', sans-serif; 
     font-size: 1.1rem;
     font-weight: 400;
 }
@@ -17,18 +15,15 @@ body {
  font-family: 'Roboto Mono', monospace;
  }
 
-/* body {
-    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 0.05em;
-    line-height: 1.5;
-}
-*/
 
  a {
     color: inherit;
 }
+
+#bandlogo {
+    min-height: 60px;
+}
+
 
 
 /*--------------------------------------  Header */
@@ -37,40 +32,6 @@ body {
     font-family: 'Roboto Mono', monospace;
     font-size: 1.5rem;
 }
-/* -------------    Hover Underline Navbar --------*/
-
-.underline {
-    transition-property: underline;
-}
-
-.underline:hover{
-    text-decoration: underline;
-} 
-
-
-
-
-
-/* -----------------------   index.html section */
-
-
-/*
-
-.quote {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#jumbo {
-    background-image: url();
-}
-
-
-*/
-
-.call-to-action {
-    min-height: 300px;
-}
-
 
 
 
@@ -87,8 +48,21 @@ body {
     padding: 2%;
 }
 
+/* -------------    Hover Underline Navbar --------*/
+
+.underline {
+    transition-property: underline;
+}
+
+.underline:hover{
+    text-decoration: underline;
+} 
+
+/* ----------------   Red Hover for Icons/Links -----*/
 
 
+/* ----   This Stack Overflow Thread helped in learning hot to Font Awesome icons to turn red on hover.
+( https://stackoverflow.com/questions/25770590/change-color-when-hover-a-font-awesome-icon) */
 
 .red-pointer:hover {
    color:red !important;
@@ -99,18 +73,30 @@ body {
 }
 
 
-#jumbo {
-    background-image: url(wildthings2.jpg);
-    background-size: 50%;
+/* -----------------------   index/home */
+
+
+
+.call-to-action {
+    min-height: 300px;
 }
 
-.cross {
-    color: black;
+
+/* -----------------  About  */
+
+
+
+#quote {
+    font-weight: 700;
 }
 
 
 
-/*----------------------- VideoRules */
+/*----------------------- Video */
+
+/* I found out how to make Youtube video's responsive and also how to make them bigger than standard size with the help of this video and recommended code. 
+https://www.youtube.com/watch?v=9YffrCViTVk 
+I had to make a few minor adjustments for it to work on this site */
 
 
 .iframe-container{
@@ -134,12 +120,7 @@ body {
 
 
 
-/* ----------------------  Live */
-
-
-
-
-
+/* ----------------------  Tour */
 
 
 .event-date {
