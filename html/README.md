@@ -9,7 +9,7 @@ I took a lot of inspiration and meaning from Seth Godin’s book ‘This Is Mark
 The same is true of your product or service.  You may say you’re offering a widget, but don’t believe it.  When you’re marketing change, you’re offering a new emotional state, a step closer to the dreams and desires of your customers, not a widget.
 We sell feelings, status, and connection, not tasks or stuff”.
 
-So the hope was to create an online space that reflected the band’s music and artistic style but also to provide value to the user in terms of both information and user experience.
+The hope was to create an online space that reflected the band’s music and artistic style but also to provide value to the user in terms of both information and user experience.
 
 The provisional launch date for the website is May1st 2020 so a few more features and content will be added before that date.
 
@@ -20,15 +20,16 @@ A live demo can be found here
 
 UX
 
-The website is for fans of the band or new users to find out more,
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+The website is for fans of the band or new users to find out more about the band.
 
 
-As a user I want to see all available dates to see the band live.
 
 
-As a user I want to buy some of the band’s music.
+As a user I want to see all available dates to see the band perform live.
+
+
+As a user I want to watch the band’s latest video release
+
 
 
 As a user I want to connect with the band’s social media sites
@@ -47,22 +48,22 @@ Wireframes
 
 The Strategy Plane:
 Business Goals 2020 - brand awareness, showcase band’s music.
-User Needs.  Access to content and information in a well presented manner I.e. don’t overload with content.
+User Needs -  Access to content and information in a well presented manner I.e. don’t overload with content.
 
 The Scope Plane:
 The Minimum Viable Product is an online space that lays out the band’s vision and points the user to relevant information.
 
 The Structure Plane:
 The information is structured in a clean and clear way.
-The homepage being saved for just a photo and whatever the main feature will be the ‘call to action’ for the band, whatever that may be at any given time.
+The homepage being saved for just a photo and a 'main feature' which will be the ‘call to action’ for the band, whatever that may be at any given time.
 The rest of the information will be divided between the About, Video, Tour and Store pages, which are all self-explanatory and easy to follow.
 
 The Surface Plane:
 The site will have a minimalist feel.  Use of greys and retro simple fonts is used to reflect the art-style of Shoreditch, where the band is currently based.
 Simple old-school drawings of swallows and subtle nature photography reflects the Irish roots of the band.
-The sparse use of red was used to give a feeling of energy/excitement which is a reflection of the bands electronic musical influences.
+The sparse use of red as a hover effect over links and icons was used to give a feeling of energy/excitement which is a reflection of the bands electronic musical influences.
 
-All these seemingly small design decisions hopefully combine to achieve an artistic experience for the user and gives a feel for what the project is about.
+All these small design choices hopefully combine to achieve an artistic experience for the user and gives a feel for what the project is about.
 
 
 
@@ -70,20 +71,25 @@ All these seemingly small design decisions hopefully combine to achieve an artis
 
 
 Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+
 
 Existing Features
 
 Spotify player
-* ...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+* ...Embedded Spotify Player allows user listen to our music on our homepage
+
+Cross link
+The small font awesome cross towards the bottom of the 'About' page links to a two-minute meditation website which was added to make the user experience more personalised
+
 
 Features Left to Implement
 * A functioning Newsletter/Email Database.  
 * A functioning store to sell merchandise, vinyl’s etc.
 
 When I learn the required technologies I will implement these features.
+
+
+
 
 Technologies Used
 
