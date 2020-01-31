@@ -1,129 +1,87 @@
-/* -----------------------------------  Global Settings */
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap:100,200,300,400,500,600,700|Roboto+Mono:300&display=swap:100,200,300,400,500,600,700|');
-
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Open Sans', sans-serif; 
-    font-size: 1.1rem;
-    font-weight: 400;
+/* ----------------------------------- Global Settings */
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap:100,200,300,400,500,600,700|Roboto+Mono:300&display=swap:100,200,300,400,500,600,700|');
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 1.1rem;
+     font-weight: 400;
 }
-
-.tourfont {
- font-family: 'Roboto Mono', monospace;
- }
-
-
+ .tourfont {
+     font-family: 'Roboto Mono', monospace;
+}
  a {
-    color: inherit;
+     color: inherit;
 }
-
-#bandlogo {
-    min-height: 60px;
+ #bandlogo {
+     min-height: 60px;
 }
-
-
-
-/*--------------------------------------  Header */
-
-.mynav {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 1.5rem;
+/*-------------------------------------- Header */
+ .mynav {
+     font-family: 'Roboto Mono', monospace;
+     font-size: 1.7rem;
 }
-
-
-
-/* -----------------------   Footer */
-
-.footer-div {
-    min-height: 250px;
+/* ----------------------- Footer */
+ .footer-div {
+     min-height: 250px;
 }
-
-/*-----------------------  Icons */
-
-.icons {
-    font-size: 60px;
-    padding: 2%;
+/*----------------------- Icons */
+ .icons {
+     font-size: 60px;
+     padding: 2%;
 }
-
-/* -------------    Hover Underline Navbar --------*/
-
-.underline {
-    transition-property: underline;
+/* ------------- Hover Underline Navbar --------*/
+ .underline {
+     transition-property: underline;
 }
-
-.underline:hover{
-    text-decoration: underline;
-} 
-
-/* ----------------   Red Hover for Icons/Links -----*/
-
-
-/* ----   This Stack Overflow Thread helped in learning hot to Font Awesome icons to turn red on hover.
-( https://stackoverflow.com/questions/25770590/change-color-when-hover-a-font-awesome-icon) */
-
-.red-pointer:hover {
-   color:rgb(245, 7, 7) !important;
-   transition: all 0.3s ease-in-out;
+ .underline:hover{
+     text-decoration: underline;
 }
-.red-pointer-o:hover {
-   color: rgb(245, 7, 7) !important;
+/* ---------------- Red Hover for Icons/Links -----*/
+/* ---- This Stack Overflow Thread helped in learning hot to Font Awesome icons to turn red on hover. ( https://stackoverflow.com/questions/25770590/change-color-when-hover-a-font-awesome-icon) */
+ .red-pointer:hover {
+     color:rgb(245, 7, 7) !important;
+     transition: all 0.3s ease-in-out;
 }
-
-
-/* -----------------------   index/home */
-
-
-#spotify {
-    filter: grayscale(80%);
+ .red-pointer-o:hover {
+     color: rgb(245, 7, 7) !important;
 }
-
-
-
-/* -----------------  About  */
-
-
-
-#quote {
-    font-weight: 700;
+/* ----------------------- index/home */
+/* ----------------- to keep in line with rest of site used filter */
+ #spotify {
+     filter: grayscale(80%);
 }
-
-
-
+/* ----------------- About */
+ #quote {
+     font-weight: 700;
+}
 /*----------------------- Video */
-
-/* I found out how to make Youtube video's responsive and also how to make them bigger than standard size with the help of this video and recommended code. 
-https://www.youtube.com/watch?v=9YffrCViTVk 
-I had to make a few minor adjustments for it to work on this site but felt the bigger video size had more of an impact aesthetically */
-
-
-.iframe-container{
-  position: relative;
-  width: 90%;
-  padding-bottom: 60%; 
-  height: 0;
+/* I found out how to make Youtube video's responsive and also how to make them bigger than standard size with the help of this video and recommended code. https://www.youtube.com/watch?v=9YffrCViTVk I had to make a few minor adjustments for it to work on this site but felt the bigger video size had more of an impact aesthetically */
+ .iframe-container{
+     position: relative;
+     width: 90%;
+     padding-bottom: 60%;
+     height: 0;
 }
-.iframe-container iframe{
-  position: absolute;
-  top:0;
-  left: 0;
-  margin-left: 10%;
-  margin-right: 20%;
-  margin-top: 5%;
-  padding: 0;
-  width: 80%;
-  height: 80%;
+ .iframe-container iframe{
+     position: absolute;
+     top:0;
+     left: 0;
+     margin-left: 10%;
+     margin-right: 20%;
+     margin-top: 5%;
+     padding: 0;
+     width: 80%;
+     height: 80%;
 }
-
-
-
-
-/* ----------------------  Tour */
-
-
-.event-date {
-    font-size: 25px;
-    background-color: #eae9e4;
+/* ---------------------- Tour */
+ .event-date {
+     font-size: 25px;
+     background-color: #eae9e4;
 }
+/* ------------------ Vinyl */
+ .vinyl {
+     max-width: 50%;
+     max-height: 50%;
+}
+ 
