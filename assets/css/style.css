@@ -76,10 +76,10 @@ body {
 /* -----------------------   index/home */
 
 
-
-.call-to-action {
-    min-height: 300px;
+#spotify {
+    filter: grayscale(80%);
 }
+
 
 
 /* -----------------  About  */
@@ -96,7 +96,7 @@ body {
 
 /* I found out how to make Youtube video's responsive and also how to make them bigger than standard size with the help of this video and recommended code. 
 https://www.youtube.com/watch?v=9YffrCViTVk 
-I had to make a few minor adjustments for it to work on this site */
+I had to make a few minor adjustments for it to work on this site but felt the bigger video size had more of an impact aesthetically */
 
 
 .iframe-container{
