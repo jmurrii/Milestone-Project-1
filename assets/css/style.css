@@ -65,11 +65,11 @@ body {
 ( https://stackoverflow.com/questions/25770590/change-color-when-hover-a-font-awesome-icon) */
 
 .red-pointer:hover {
-   color:red !important;
+   color:rgb(245, 7, 7) !important;
    transition: all 0.3s ease-in-out;
 }
 .red-pointer-o:hover {
-   color:red !important;
+   color: rgb(245, 7, 7) !important;
 }
 
 
