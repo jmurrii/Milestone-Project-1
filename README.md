@@ -18,7 +18,7 @@ The provisional launch date for the website is May1st 2020 so a few more feature
 A live demo can be found here
 
 
-# UX
+## UX
 
 The website is for fans of the band or new users to find out more about the band.
 
@@ -47,10 +47,10 @@ As a user I want to keep up to date with the band’s news and updates.
 
 ### Wireframes
 
-../wireframes/wireframes1.jpeg
-../wireframes/wireframes2.jpeg
-../wireframes/wireframes3.jpeg
-../wireframes/wireframes4.jpeg
+*../wireframes/wireframes1.jpeg
+*../wireframes/wireframes2.jpeg
+*../wireframes/wireframes3.jpeg
+*../wireframes/wireframes4.jpeg
 
 
 ### The Strategy Plane:
