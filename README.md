@@ -47,10 +47,10 @@ As a user I want to keep up to date with the band’s news and updates.
 
 ### Wireframes
 
-../wireframes/wireframes1.jpeg
-../wireframes/wireframes2.jpeg
-../wireframes/wireframes3.jpeg
-../wireframes/wireframes4.jpeg
+* ../wireframes/wireframes1.jpeg
+* ../wireframes/wireframes2.jpeg
+* ../wireframes/wireframes3.jpeg
+* ../wireframes/wireframes4.jpeg
 
 
 ### The Strategy Plane:
@@ -77,7 +77,7 @@ All these small design choices hopefully combine to achieve an artistic experien
 
 
 
-## Features
+# Features
 
 
 ## Existing Features
