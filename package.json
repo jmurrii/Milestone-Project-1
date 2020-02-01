@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d Milestone-Project-1"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jmurrii/Milestone-Project-1.git"
   },
   "keywords": [],
+
   "author": "",
   "license": "ISC",
   "homepage": "https://jmurrii.github.io/Milestone-Project-1",
