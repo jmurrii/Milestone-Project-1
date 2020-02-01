@@ -1,0 +1,24 @@
+{
+  "name": "Milestone-Project-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmurrii/Milestone-Project-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://jmurrii.github.io/Milestone-Project-1",
+  "bugs": {
+    "url": "https://github.com/jmurrii/Milestone-Project-1/issues"
+  },
+  "homepage": "https://github.com/jmurrii/Milestone-Project-1#readme",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
