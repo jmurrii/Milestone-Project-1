@@ -77,7 +77,7 @@ All these small design choices hopefully combine to achieve an artistic experien
 
 
 
-## Features
+# Features
 
 
 ## Existing Features
