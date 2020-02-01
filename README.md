@@ -128,12 +128,11 @@ I still have not found a way to make the Spotify player stop playing automatical
 
 
 ## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-* Different values for environment variables (Heroku Config Vars)?
-* Different configuration files?
-* Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
+
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/jmurrii/Milestone-Project-1 into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+
+(Section taken from https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive/blob/master/README.md)
 
 ## Credits
 
